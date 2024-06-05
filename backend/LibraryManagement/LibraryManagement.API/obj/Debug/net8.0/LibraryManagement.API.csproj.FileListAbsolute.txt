@@ -153,3 +153,4 @@ D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.API\
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.API\bin\Debug\net8.0\MailKit.dll
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.API\bin\Debug\net8.0\MimeKit.dll
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.API\obj\Debug\net8.0\LibraryManagement.API.sourcelink.json

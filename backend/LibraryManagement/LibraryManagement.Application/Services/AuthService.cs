@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CloudinaryDotNet.Actions;
 using LibraryManagement.Application.Dtos.Auth;
 using LibraryManagement.Application.Dtos.User;
 using LibraryManagement.Application.Interfaces;
@@ -35,15 +36,34 @@ namespace LibraryManagement.Application.Services
 
         public async Task<UserDto> RegisterAsync(RegisterDto registerDto)
         {
+            var exsitingUser = await _userManager.FindByEmailAsync(registerDto.Email);
+            if (exsitingUser != null)
+            {
+                throw new ApplicationException("Email already registered");
+            }
+
+            var exsitingUserName = await _userManager.FindByNameAsync(registerDto.Username);
+            if (exsitingUserName != null)
+            {
+                throw new ApplicationException("UserName already registered");
+
+            }
+
+
+            if (registerDto.Password.Length < 8)
+            {
+                throw new ApplicationException("Password must be greater than 8 character");
+            }
             var avatarUrl = await UploadAvatarAsync(registerDto.Avatar);
 
             var user = new User
             {
-                UserName = registerDto.Email,
+                UserName = registerDto.Username,
                 Email = registerDto.Email,
                 FullName = registerDto.FullName,
                 Address = registerDto.Address,
-                Avatar = avatarUrl
+                Avatar = avatarUrl,
+
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);
@@ -70,24 +90,26 @@ namespace LibraryManagement.Application.Services
                 throw new ApplicationException("Invalid email or password.");
             }
 
-            var token = GenerateJwtToken(user);
+            var token = await GenerateJwtToken(user, _userManager); 
 
             return new TokenDto
             {
                 Email = user.Email,
                 Token = token,
-                RefreshToken = GenerateRefreshToken() // If using refresh tokens
+                RefreshToken = GenerateRefreshToken()
             };
         }
 
-        private string GenerateJwtToken(User user)
+        private async Task<string> GenerateJwtToken(User user, UserManager<User> userManager)
         {
-            var claims = new[]
-            {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
-            };
+            var claims = new List<Claim>
+    {
+        new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+        new Claim(ClaimTypes.Role, user.Role.ToString())
+
+    };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:SecretKey"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -101,6 +123,10 @@ namespace LibraryManagement.Application.Services
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+
+
+
 
         private async Task<string> UploadAvatarAsync(IFormFile avatar)
         {

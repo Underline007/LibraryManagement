@@ -8,5 +8,6 @@ namespace LibraryManagement.Infrastructure.Interfaces
         Task<User> GetByUserNameAsync(string username);
         Task<User> GetByEmailAsync(string email);
         Task UpdateAsync(User user);
+
     }
 }

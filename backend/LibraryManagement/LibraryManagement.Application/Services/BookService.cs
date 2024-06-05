@@ -3,6 +3,7 @@ using LibraryManagement.Application.Dtos.Book;
 using LibraryManagement.Application.Interfaces;
 using LibraryManagement.Core.Entities;
 using LibraryManagement.Infrastructure.Interfaces;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -22,10 +23,17 @@ namespace LibraryManagement.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<BookDto>> GetAllBooksAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<BookDto>> GetAllBooksAsync(int pageNumber, int pageSize)
         {
-            var books = await _bookRepository.GetAll(pageNumber, pageSize);
-            return _mapper.Map<IEnumerable<BookDto>>(books);
+            var paginatedBooks = await _bookRepository.GetAll(pageNumber, pageSize);
+            var bookDtos = _mapper.Map<IEnumerable<BookDto>>(paginatedBooks.Items);
+
+            return new PaginatedList<BookDto>
+            {
+                Items = (List<BookDto>)bookDtos,
+                TotalPages = paginatedBooks.TotalPages,
+    
+            };
         }
 
         public async Task<BookDto> GetBookByIdAsync(Guid id)

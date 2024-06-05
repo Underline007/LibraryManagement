@@ -12,3 +12,4 @@ D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Debug\net8.0\LibraryManagement.Core.pdb
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Debug\net8.0\LibraryManagement.Core.genruntimeconfig.cache
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Debug\net8.0\ref\LibraryManagement.Core.dll
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Debug\net8.0\LibraryManagement.Core.sourcelink.json

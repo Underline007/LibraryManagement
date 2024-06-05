@@ -21,7 +21,7 @@ namespace LibraryManagement.Application.Services
         {
             this.emailSettings = options.Value;
         }
-        public async Task SendEmailAsync(Mailrequest mailRequest)
+        public async Task SendEmailAsync(SendMailRequest mailRequest)
         {
             var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse(emailSettings.Email);

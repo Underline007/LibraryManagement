@@ -42,10 +42,10 @@ namespace LibraryManagement.Application.Services
             await _ratingRepository.Delete(id);
         }
 
-        public async Task<IEnumerable<RatingDto>> GetAllRatingAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<RatingDto>> GetAllRatingAsync(int pageNumber, int pageSize)
         {
             var ratings = await _ratingRepository.GetAll(pageNumber, pageSize);
-            return _mapper.Map<IEnumerable<RatingDto>>(ratings);
+            return _mapper.Map<PaginatedList<RatingDto>>(ratings);
         }
 
         public async Task<RatingDto> GetRatingByIdAsync(Guid id)

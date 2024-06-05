@@ -1,4 +1,5 @@
 ﻿using LibraryManagement.Application.Dtos.Review;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace LibraryManagement.Application.Interfaces
 {
     public interface IReviewService
     {
-        Task<IEnumerable<ReviewDto>> GetAllReviewAsync(int pageNumber, int pageSize);
+        Task<PaginatedList<ReviewDto>> GetAllReviewAsync(int pageNumber, int pageSize);
         Task<ReviewDto> GetReviewByIdAsync(Guid id);
         Task<ReviewDto> AddReviewAsync(ReviewCreateEditDto createEditReviewDto);
         Task DeleteReviewAsync(Guid id);

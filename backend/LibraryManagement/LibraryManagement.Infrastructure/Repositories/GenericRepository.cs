@@ -39,13 +39,23 @@ namespace LibraryManagement.Infrastructure.Repositories
             await SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> GetAll(int pageNumber, int pageSize)
+        public async Task<PaginatedList<T>> GetAll(int pageNumber, int pageSize)
         {
-            return await _context.Set<T>()
-                                 .Skip((pageNumber - 1) * pageSize)
-                                 .Take(pageSize)
-                                 .ToListAsync();
+            var totalItems = await _context.Set<T>().CountAsync();
+            var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+
+            var items = await _context.Set<T>()
+                                      .Skip((pageNumber - 1) * pageSize)
+                                      .Take(pageSize)
+                                      .ToListAsync();
+
+            return new PaginatedList<T>
+            {
+                Items = items,
+                TotalPages = totalPages
+            };
         }
+
 
         public async Task<IEnumerable<T>> GetAll(
             Expression<Func<T, bool>> filter,

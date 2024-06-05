@@ -14,14 +14,7 @@ namespace LibraryManagement.Application.Dtos.BookBorrowingRequest
         [Required(ErrorMessage = "RequestorId is required")]
         public Guid RequestorId { get; set; }
 
-        [Required(ErrorMessage = "ApproverId is required")]
-        public Guid ApproverId { get; set; }
-
-        public DateTime RequestDate { get; set; } = DateTime.Now;
-
         public DateTime BookBorrowingReturnDate { get; set; } 
-
-        public BorrowingRequestStatus Status { get; set; } = BorrowingRequestStatus.Waitting;
 
         [Required(ErrorMessage = "Book list is required")]
         [MaxLength(5, ErrorMessage = "Maximum 5 books allowed")]

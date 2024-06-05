@@ -77,8 +77,15 @@ namespace LibraryManagement.API.Controllers
             [HttpDelete("{id}")]
             public async Task<IActionResult> DeleteCategory(Guid id)
             {
+
+                var category = await _categoryService.GetCategoryByIdAsync(id);
+                if (category == null)
+                {
+                    throw new KeyNotFoundException("category not found");
+                }
                 try
                 {
+                    
                     await _categoryService.DeleteCategoryAsync(id);
                     return NoContent();
                 }

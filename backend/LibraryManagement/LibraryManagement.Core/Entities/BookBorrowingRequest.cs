@@ -14,7 +14,7 @@ namespace LibraryManagement.Core.Entities
 
         public BorrowingRequestStatus Status { get; set; } = BorrowingRequestStatus.Waitting;
 
-        public Guid RequestorId { get; set; }
+        public Guid? RequestorId { get; set; }
         public virtual User? Requestor { get; set; }
 
         public Guid? ApproverId { get; set; }

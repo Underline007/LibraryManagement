@@ -9,6 +9,6 @@ namespace LibraryManagement.Application.Interfaces
 {
     public interface IEmailService
     {
-        Task SendEmailAsync(Mailrequest mailRequest);
+        Task SendEmailAsync(SendMailRequest mailRequest);
     }
 }

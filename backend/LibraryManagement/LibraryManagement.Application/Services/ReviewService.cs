@@ -3,6 +3,7 @@ using LibraryManagement.Application.Dtos.Review;
 using LibraryManagement.Application.Interfaces;
 using LibraryManagement.Core.Entities;
 using LibraryManagement.Infrastructure.Interfaces;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,10 +42,10 @@ namespace LibraryManagement.Application.Services
             await _reviewRepository.Delete(id);
         }
 
-        public async Task<IEnumerable<ReviewDto>> GetAllReviewAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<ReviewDto>> GetAllReviewAsync(int pageNumber, int pageSize)
         {
             var reviews = await _reviewRepository.GetAll(pageNumber, pageSize);
-            return _mapper.Map<IEnumerable<ReviewDto>>(reviews);
+            return _mapper.Map<PaginatedList<ReviewDto>>(reviews);
         }
 
         public async Task<ReviewDto> GetReviewByIdAsync(Guid id)

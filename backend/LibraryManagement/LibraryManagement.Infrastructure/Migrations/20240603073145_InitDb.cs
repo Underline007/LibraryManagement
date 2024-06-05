@@ -177,8 +177,9 @@ namespace LibraryManagement.Infrastructure.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     RequestDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    BookBorrowingReturnDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
-                    RequestorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    RequestorId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     ApproverId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
@@ -203,8 +204,9 @@ namespace LibraryManagement.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Author = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Author = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },

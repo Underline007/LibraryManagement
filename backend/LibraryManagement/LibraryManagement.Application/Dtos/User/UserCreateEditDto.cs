@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using LibraryManagement.Core.Enums;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,5 +20,6 @@ namespace LibraryManagement.Application.Dtos.User
 
         [StringLength(255, ErrorMessage = "Image URL cannot exceed 255 characters.")]
         public IFormFile? Image { get; set; }
+        public UserRole Role { get; set; } = UserRole.User;
     }
 }

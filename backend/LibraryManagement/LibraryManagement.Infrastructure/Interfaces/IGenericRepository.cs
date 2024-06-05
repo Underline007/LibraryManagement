@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibraryManagement.Infrastructure.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -9,7 +10,7 @@ namespace LibraryManagement.Infrastructure.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {
-        Task<IEnumerable<T>> GetAll(int pageNumber, int pageSize);
+        Task<PaginatedList<T>> GetAll(int pageNumber, int pageSize);
         Task<IEnumerable<T>> GetAll(
             Expression<Func<T, bool>> filter,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy,

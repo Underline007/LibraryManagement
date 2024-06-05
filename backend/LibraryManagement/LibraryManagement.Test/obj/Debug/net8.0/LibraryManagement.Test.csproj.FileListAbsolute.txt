@@ -26,3 +26,4 @@ D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Test
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Test\obj\Debug\net8.0\LibraryManagement.Test.pdb
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Test\obj\Debug\net8.0\LibraryManagement.Test.genruntimeconfig.cache
 D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Test\obj\Debug\net8.0\ref\LibraryManagement.Test.dll
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Test\obj\Debug\net8.0\LibraryManagement.Test.sourcelink.json

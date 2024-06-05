@@ -1,4 +1,5 @@
 ﻿using LibraryManagement.Application.Dtos.Rating;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace LibraryManagement.Application.Interfaces
 {
     public interface IRatingService
     {
-        Task<IEnumerable<RatingDto>> GetAllRatingAsync(int pageNumber, int pageSize);
+        Task<PaginatedList<RatingDto>> GetAllRatingAsync(int pageNumber, int pageSize);
         Task<RatingDto> GetRatingByIdAsync(Guid id);
         Task<RatingDto> AddRatingAsync(RatingCreateEditDto createEditRatingDto);
         Task DeleteRatingAsync(Guid id);

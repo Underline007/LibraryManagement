@@ -29,9 +29,17 @@ namespace LibraryManagement.Application.Services
 
         public async Task<BookBorrowingRequestDto> CreateRequestAsync(BorrowingRequestCreateEditDto createEditDto)
         {
-            var request = _mapper.Map<BookBorrowingRequest>(createEditDto);
-            await _requestRepository.Add(request);
-            return _mapper.Map<BookBorrowingRequestDto>(request);
+            var newRequest = new BookBorrowingRequest
+            {
+                RequestorId = createEditDto.RequestorId,
+                BookBorrowingReturnDate = createEditDto.BookBorrowingReturnDate,
+                Status = BorrowingRequestStatus.Waitting,
+                RequestDate = DateTime.Now,
+                BookBorrowingRequestDetails = createEditDto.BookIds?.Select(id => new BookBorrowingRequestDetail { BookId = id }).ToList()
+            };
+
+            await _requestRepository.Add(newRequest);
+            return _mapper.Map<BookBorrowingRequestDto>(newRequest);
         }
 
         public async Task<IEnumerable<BookBorrowingRequestDto>> GetAllRequestsAsync(int pageNumber, int pageSize)
@@ -60,20 +68,22 @@ namespace LibraryManagement.Application.Services
                 throw new KeyNotFoundException("Borrowing request not found.");
             }
 
-            var user = await _userRepository.GetById(request.RequestorId);
+            var requestorId = request.RequestorId ?? throw new InvalidOperationException("RequestorId is null.");
+            var user = await _userRepository.GetById(requestorId);
             if (user == null)
             {
                 throw new KeyNotFoundException("User not found.");
             }
 
-            var mailRequest = new MailRequest
+            var sendMailRequest = new SendMailRequest
             {
                 ToEmail = user.Email,
                 Subject = "Update on Your Book Borrowing Request",
                 Body = $"Your borrowing request with ID {request.Id} has been updated to {request.Status}."
             };
 
-            await _emailService.SendEmailAsync(mailRequest);
+            await _emailService.SendEmailAsync(sendMailRequest);
         }
+
     }
 }

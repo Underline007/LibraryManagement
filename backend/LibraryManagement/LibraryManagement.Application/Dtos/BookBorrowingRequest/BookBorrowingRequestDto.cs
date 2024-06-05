@@ -11,10 +11,11 @@ namespace LibraryManagement.Application.Dtos.BookBorrowingRequest
     public class BookBorrowingRequestDto
     {
         public Guid Id { get; set; }
-        public DateTime RequestDate { get; set; }
+        public DateTime RequestDate { get; set; } = DateTime.Now;
         public DateTime BookBorrowingReturnDate { get; set; }
-        public BorrowingRequestStatus Status { get; set; }
+        public BorrowingRequestStatus Status { get; set; } = BorrowingRequestStatus.Waitting;
         public Guid RequestorId { get; set; }
         public Guid? ApproverId { get; set; }
+        public List<Guid>? BookIds { get; set; }
     }
 }

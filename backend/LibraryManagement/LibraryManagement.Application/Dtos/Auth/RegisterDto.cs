@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using LibraryManagement.Core.Enums;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -25,6 +26,9 @@ namespace LibraryManagement.Application.Dtos.Auth
 
         [Required]
         public string Address { get; set; } = string.Empty;
+
+        //[Required]
+        //public UserRole Role { get; set; } = UserRole.User;
 
         public IFormFile? Avatar { get; set; }
     }

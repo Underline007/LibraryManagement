@@ -18,10 +18,12 @@ namespace LibraryManagement.Application.Dtos.Book
         [StringLength(100, ErrorMessage = "Author cannot exceed 100 characters.")]
         public string Author { get; set; } = string.Empty;
 
+        [Required(ErrorMessage = "Description is required.")]
+        [StringLength(500, ErrorMessage = "Description cannot exceed 500 characters.")]
+        public string Description { get; set; } = string.Empty;
+
         [Required(ErrorMessage = "Category ID is required.")]
         public Guid CategoryId { get; set; }
-
-        [StringLength(255, ErrorMessage = "Image URL cannot exceed 255 characters.")]
         public IFormFile? Image { get; set; }
 
     }

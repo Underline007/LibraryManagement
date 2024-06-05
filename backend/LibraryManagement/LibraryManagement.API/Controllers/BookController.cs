@@ -53,7 +53,7 @@ namespace LibraryManagement.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBook([FromBody] CreateEditBookDto createEditBookDto)
+        public async Task<IActionResult> AddBook([FromForm] CreateEditBookDto createEditBookDto)
         {
             try
             {
@@ -93,7 +93,7 @@ namespace LibraryManagement.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateBook(Guid id, [FromBody] CreateEditBookDto createEditBookDto)
+        public async Task<IActionResult> UpdateBook(Guid id, [FromForm] CreateEditBookDto createEditBookDto)
         {
             try
             {

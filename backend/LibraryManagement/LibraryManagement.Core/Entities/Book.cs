@@ -10,11 +10,14 @@ namespace LibraryManagement.Core.Entities
         public Guid Id { get; set; }
 
         [Required]
-        [MaxLength(255)]
+        [MaxLength(200)]
         public string Title { get; set; } = string.Empty;
 
-        [MaxLength(255)]
+        [MaxLength(100)]
         public string Author { get; set; } = string.Empty;
+
+        [MaxLength(500)]
+        public string Description { get; set; } = string.Empty;
 
         public string Image { get; set; } = string.Empty;
 

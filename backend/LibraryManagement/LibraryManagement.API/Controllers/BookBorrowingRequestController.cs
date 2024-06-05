@@ -65,7 +65,7 @@ namespace LibraryManagement.API.Controllers
         {
             try
             {
-                Mailrequest mailRequest = new Mailrequest();
+                SendMailRequest mailRequest = new SendMailRequest();
                 mailRequest.ToEmail = "keuconnhaquat@gmail.com";
                 mailRequest.Subject = "Welcome to NihiraTechiees";
                 mailRequest.Body = GetHtmlcontent();

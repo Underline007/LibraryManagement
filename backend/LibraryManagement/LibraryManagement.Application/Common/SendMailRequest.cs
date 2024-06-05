@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Application.Common
 {
-    public class Mailrequest
+    public class SendMailRequest
     {
         public string ToEmail { get; set; }
         public string Subject { get; set; }

@@ -29,11 +29,16 @@ namespace LibraryManagement.Infrastructure.Migrations
 
                     b.Property<string>("Author")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<Guid>("CategoryId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -41,8 +46,8 @@ namespace LibraryManagement.Infrastructure.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
 
@@ -66,7 +71,7 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("RequestorId")
+                    b.Property<Guid?>("RequestorId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Status")
@@ -225,6 +230,9 @@ namespace LibraryManagement.Infrastructure.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -401,8 +409,7 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.HasOne("LibraryManagement.Core.Entities.User", "Requestor")
                         .WithMany("BookBorrowingRequests")
                         .HasForeignKey("RequestorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Approver");
 
@@ -439,7 +446,7 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.HasOne("LibraryManagement.Core.Entities.User", "User")
                         .WithMany("Ratings")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Book");
@@ -458,7 +465,7 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.HasOne("LibraryManagement.Core.Entities.User", "User")
                         .WithMany("Reviews")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Book");

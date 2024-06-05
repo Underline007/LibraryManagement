@@ -3,6 +3,7 @@ using LibraryManagement.Application.Dtos.Category;
 using LibraryManagement.Application.Interfaces;
 using LibraryManagement.Core.Entities;
 using LibraryManagement.Infrastructure.Interfaces;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,17 +34,17 @@ namespace LibraryManagement.Application.Services
         public async Task DeleteCategoryAsync(Guid id)
         {
             var category = await _categoryRepository.GetById(id);
-            if (category != null)
+            if (category is null)
             {
                 throw new KeyNotFoundException("Category not found");
             }
             await _categoryRepository.Delete(id);    
         }
 
-        public async Task<IEnumerable<CategoryDto>> GetAllCategoryAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<CategoryDto>> GetAllCategoryAsync(int pageNumber, int pageSize)
         {
             var categories = await _categoryRepository.GetAll(pageNumber, pageSize);
-            return _mapper.Map<IEnumerable<CategoryDto>>(categories);
+            return _mapper.Map<PaginatedList<CategoryDto>>(categories);
         }
 
         public async Task<CategoryDto> GetCategoryByIdAsync(Guid id)
@@ -55,7 +56,7 @@ namespace LibraryManagement.Application.Services
         public async Task UpdateCategoryAsync(Guid id, CategoryCreateEditDto createEditCategoryDto)
         {
             var category = await _categoryRepository.GetById(id);
-            if (category != null)
+            if (category is null)
             {
                 throw new KeyNotFoundException("Category not found");
             }

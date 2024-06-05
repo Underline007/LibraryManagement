@@ -57,13 +57,13 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             .HasOne(r => r.User)
             .WithMany(u => u.Reviews)
             .HasForeignKey(r => r.UserId)
-            .OnDelete(DeleteBehavior.Cascade);
+            .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<Rating>()
             .HasOne(r => r.User)
             .WithMany(u => u.Ratings)
             .HasForeignKey(r => r.UserId)
-            .OnDelete(DeleteBehavior.Cascade);
+            .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<BookBorrowingRequestDetail>()
             .HasKey(brd => new { brd.BookBorrowingRequestId, brd.BookId });

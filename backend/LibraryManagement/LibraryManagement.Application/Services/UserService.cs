@@ -3,6 +3,7 @@ using LibraryManagement.Application.Dtos.User;
 using LibraryManagement.Application.Interfaces;
 using LibraryManagement.Core.Entities;
 using LibraryManagement.Infrastructure.Interfaces;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -20,10 +21,10 @@ namespace LibraryManagement.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<UserDto>> GetAllUserAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<UserDto>> GetAllUserAsync(int pageNumber, int pageSize)
         {
             var users = await _userRepository.GetAll(pageNumber, pageSize);
-            return _mapper.Map<IEnumerable<UserDto>>(users);
+            return _mapper.Map<PaginatedList<UserDto>>(users);
         }
 
         public async Task<UserDto> GetUserByIdAsync(Guid id)

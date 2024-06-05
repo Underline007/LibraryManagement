@@ -83,12 +83,15 @@ namespace LibraryManagement.API
 
             // Add services
             builder.Services.AddScoped<IAuthService, AuthService>();
-            builder.Services.AddScoped<BookService>();
-            builder.Services.AddScoped<IUserService, UserService>();
-            builder.Services.AddScoped<IRatingRepository, RatingRepository>();
-            builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
-            builder.Services.AddScoped<IRatingService, RatingService>();
-            builder.Services.AddScoped<IReviewService, ReviewService>();
+            
+ 
+            builder.Services.AddScoped(typeof(IGenericRepository<Book>), typeof(GenericRepository<Book>));
+            builder.Services.AddScoped(typeof(IGenericRepository<Category>), typeof(GenericRepository<Category>));
+
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IBookService, BookService>();
+
+
 
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
@@ -133,6 +136,11 @@ namespace LibraryManagement.API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseHttpsRedirection();
+
+            app.UseCors("AllowAllOrigins");
+
 
             app.UseAuthentication();
             app.UseAuthorization();

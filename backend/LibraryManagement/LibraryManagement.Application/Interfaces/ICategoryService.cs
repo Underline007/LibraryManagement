@@ -1,4 +1,5 @@
 ﻿using LibraryManagement.Application.Dtos.Category;
+using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace LibraryManagement.Application.Interfaces
 {
     public interface ICategoryService
     {
-        Task<IEnumerable<CategoryDto>> GetAllCategoryAsync(int pageNumber, int pageSize);
+        Task<PaginatedList<CategoryDto>> GetAllCategoryAsync(int pageNumber, int pageSize);
         Task<CategoryDto>GetCategoryByIdAsync(Guid id);
         Task<CategoryDto>AddCategoryAsync(CategoryCreateEditDto createEditCategoryDto);
         Task DeleteCategoryAsync(Guid id);
