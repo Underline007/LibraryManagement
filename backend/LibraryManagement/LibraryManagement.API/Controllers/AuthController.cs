@@ -44,18 +44,5 @@ namespace LibraryManagement.API.Controllers
             }
         }
 
-        //[HttpPost("refresh-token")]
-        //public async Task<IActionResult> RefreshToken(TokenDto tokenDto)
-        //{
-        //    try
-        //    {
-        //        var newTokenDto = await _authService.RefreshTokenAsync(tokenDto);
-        //        return Ok(newTokenDto);
-        //    }
-        //    catch (ApplicationException ex)
-        //    {
-        //        return Unauthorized(new { Message = ex.Message });
-        //    }
-        //}
     }
 }

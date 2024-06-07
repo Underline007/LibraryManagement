@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Infrastructure.Interfaces;
+﻿using LibraryManagement.Core.Entities;
+using LibraryManagement.Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -56,29 +57,6 @@ namespace LibraryManagement.Infrastructure.Repositories
             };
         }
 
-
-        public async Task<IEnumerable<T>> GetAll(
-            Expression<Func<T, bool>> filter,
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy,
-            int pageNumber,
-            int pageSize)
-        {
-            IQueryable<T> query = _context.Set<T>();
-
-            if (filter != null)
-            {
-                query = query.Where(filter);
-            }
-
-            if (orderBy != null)
-            {
-                query = orderBy(query);
-            }
-
-            return await query.Skip((pageNumber - 1) * pageSize)
-                              .Take(pageSize)
-                              .ToListAsync();
-        }
 
         public async Task<T> GetById(Guid id)
         {

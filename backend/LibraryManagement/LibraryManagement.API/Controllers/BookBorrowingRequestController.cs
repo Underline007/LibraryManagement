@@ -1,17 +1,18 @@
 ﻿using LibraryManagement.Application.Common;
 using LibraryManagement.Application.Dtos.BookBorrowingRequest;
 using LibraryManagement.Application.Interfaces;
-using LibraryManagement.Application.Services;
 using LibraryManagement.Core.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace LibraryManagement.API.Controllers
 {
     [Route("api/bookborrowingrequests")]
     [ApiController]
+    
     public class BookBorrowingRequestController : ControllerBase
     {
         private readonly IBookBorrowingRequestService _borrowingRequestService;
@@ -22,17 +23,19 @@ namespace LibraryManagement.API.Controllers
             _borrowingRequestService = borrowingRequestService;
             _emailService = emailService;
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateRequest([FromBody] BorrowingRequestCreateEditDto createEditDto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                var request = await _borrowingRequestService.CreateRequestAsync(createEditDto);
+                return CreatedAtAction(nameof(GetRequestById), new { id = request.Id }, request);
             }
-
-            var request = await _borrowingRequestService.CreateRequestAsync(createEditDto);
-            return CreatedAtAction(nameof(GetRequestById), new { id = request.Id }, request);
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("{id}")]
@@ -46,48 +49,29 @@ namespace LibraryManagement.API.Controllers
             return Ok(request);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllRequests([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
-        {
-            var requests = await _borrowingRequestService.GetAllRequestsAsync(pageNumber, pageSize);
-            return Ok(requests);
-        }
-
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
         [HttpPut("{id}/status")]
-        public async Task<IActionResult> UpdateRequestStatus(Guid id, [FromBody] BorrowingRequestStatus newStatus)
+        public async Task<IActionResult> UpdateRequestStatus(Guid id, BorrowingRequestStatus newStatus, Guid approverId)
         {
-            await _borrowingRequestService.UpdateRequestStatusAsync(id, newStatus);
+            await _borrowingRequestService.UpdateRequestStatusAsync(id, newStatus, approverId);
             return NoContent();
         }
 
-        [HttpPost("SendMail")]
-        public async Task<IActionResult> SendMail()
+        [Authorize]
+        [HttpGet("userRequests/{userId}")]
+        public async Task<IActionResult> GetUserRequests(Guid userId)
         {
-            try
-            {
-                SendMailRequest mailRequest = new SendMailRequest();
-                mailRequest.ToEmail = "keuconnhaquat@gmail.com";
-                mailRequest.Subject = "Welcome to NihiraTechiees";
-                mailRequest.Body = GetHtmlcontent();
-                await _emailService.SendEmailAsync(mailRequest);
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+            var requests = await _borrowingRequestService.GetRequestsByUserIdAsync(userId);
+            return Ok(requests);
         }
 
-        private string GetHtmlcontent()
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
+        [HttpGet("manageRequests")]
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllRequests()
         {
-            string Response = "<div style=\"width:100%;background-color:lightblue;text-align:center;margin:10px\">";
-            Response += "<h1>Welcome to Nihira Techiees</h1>";
-            Response += "<img src=\"https://yt3.googleusercontent.com/v5hyLB4am6E0GZ3y-JXVCxT9g8157eSeNggTZKkWRSfq_B12sCCiZmRhZ4JmRop-nMA18D2IPw=s176-c-k-c0x00ffffff-no-rj\" />";
-            Response += "<h2>Thanks for subscribed us</h2>";
-            Response += "<a href=\"https://www.youtube.com/channel/UCsbmVmB_or8sVLLEq4XhE_A/join\">Please join membership by click the link</a>";
-            Response += "<div><h1> Contact us : nihiratechiees@gmail.com</h1></div>";
-            Response += "</div>";
-            return Response;
+            var requests = await _borrowingRequestService.GetAllRequestsAsync();
+            return Ok(requests);
         }
     }
 }

@@ -1,7 +1,16 @@
 ﻿using LibraryManagement.Application.Dtos.Book;
 using LibraryManagement.Application.Services;
+using LibraryManagement.Core.Entities;
+using LibraryManagement.Core.Enums;
+using LibraryManagement.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Net;
+using System.Threading.Tasks;
 
 namespace LibraryManagement.API.Controllers
 {
@@ -18,6 +27,7 @@ namespace LibraryManagement.API.Controllers
             _logger = logger;
         }
 
+
         [HttpGet]
         public async Task<IActionResult> GetAllBooks(int pageNumber = 1, int pageSize = 10)
         {
@@ -31,6 +41,14 @@ namespace LibraryManagement.API.Controllers
                 _logger.LogError(ex, "An error occurred while retrieving books.");
                 return StatusCode((int)HttpStatusCode.InternalServerError, "An error occurred while retrieving books.");
             }
+        }
+
+        [Authorize]
+        [HttpGet("query")]
+        public async Task<IActionResult> SearchAndSort([FromQuery] string? searchTerm, [FromQuery] string? sortBy)
+        {
+            var books = await _bookService.SearchAndSortAsync(searchTerm?.ToLower(), sortBy?.ToLower());
+            return Ok(books);
         }
 
         [HttpGet("{id}")]
@@ -52,6 +70,7 @@ namespace LibraryManagement.API.Controllers
             }
         }
 
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
         [HttpPost]
         public async Task<IActionResult> AddBook([FromForm] CreateEditBookDto createEditBookDto)
         {
@@ -72,6 +91,7 @@ namespace LibraryManagement.API.Controllers
             }
         }
 
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBook(Guid id)
         {
@@ -92,6 +112,7 @@ namespace LibraryManagement.API.Controllers
             }
         }
 
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBook(Guid id, [FromForm] CreateEditBookDto createEditBookDto)
         {

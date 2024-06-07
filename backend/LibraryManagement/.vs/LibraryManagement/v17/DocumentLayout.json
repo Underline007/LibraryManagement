@@ -3,32 +3,84 @@
   "WorkspaceRootPath": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\bookborrowingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\bookborrowingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\bookborrowingrequestdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\bookborrowingrequestdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\interfaces\\ibookborrowingrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\interfaces\\ibookborrowingrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\repositories\\bookborrowingrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\bookborrowingrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\bookborrowingrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\bookborrowingrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\bookborrowingrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\bookborrowingrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\ibookborrowingrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\ibookborrowingrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,56 +95,128 @@
       "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\migrations\\20240603073145_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\migrations\\20240603073145_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\extensions\\roleseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\extensions\\roleseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\common\\uploadphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\common\\uploadphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\bookborrowingrequest\\bookborrowingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\bookborrowingrequest\\bookborrowingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\bookborrowingrequest\\borrowingrequestcreateeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\bookborrowingrequest\\borrowingrequestcreateeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\common\\sendmailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\common\\sendmailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\common\\uploadphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\common\\uploadphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\ibookborrowingrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\ibookborrowingrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.api\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B9ED13-C70B-4DF0-A458-85EE0BE143DB}|LibraryManagement.API\\LibraryManagement.API.csproj|solutionrelative:librarymanagement.api\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\repositories\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\bookborrowingrequest\\bookborrowingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\bookborrowingrequest\\bookborrowingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\bookborrowingrequestdetail\\bookborrowingrequestdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\bookborrowingrequestdetail\\bookborrowingrequestdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\bookborrowingrequest\\borrowingrequestcreateeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\bookborrowingrequest\\borrowingrequestcreateeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,32 +227,8 @@
       "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\user\\usercreateeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE34A3E7-E201-435B-B97B-560097934499}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\common\\sendmailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\common\\sendmailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.core\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF7A596-0E55-4BAA-AEBA-3A62630ED8D0}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|d:\\github\\net\\librarymanagement\\backend\\librarymanagement\\librarymanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E338991-6003-4A06-8F79-DEBE823AD39F}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,11 +238,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 181,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 52,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\User\\UserDto.cs",
@@ -151,18 +251,17 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T10:38:13.568Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagement.API\\Program.cs",
               "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Program.cs",
               "RelativeToolTip": "LibraryManagement.API\\Program.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAswHIAAABAAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAowJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T16:50:05.396Z",
               "IsPinned": true,
@@ -170,306 +269,306 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:15:37.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:15:11.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Interfaces\\IRatingRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IRatingRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Interfaces\\IRatingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:34:38.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookBorrowingRequestDetail.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\BookBorrowingRequestDetail.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\BookBorrowingRequestDetail.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\BookBorrowingRequestDetail.cs",
+              "RelativeToolTip": "LibraryManagement.Core\\Entities\\BookBorrowingRequestDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T07:02:29.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BookBorrowingRequest.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\BookBorrowingRequest.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\BookBorrowingRequest.cs",
               "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\BookBorrowingRequest.cs",
               "RelativeToolTip": "LibraryManagement.Core\\Entities\\BookBorrowingRequest.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T14:02:20.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookBorrowingRequestRepository.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
-              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T14:01:26.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookBorrowingRequestController.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
-              "RelativeToolTip": "LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:58:41.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:14:11.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Services\\AuthService.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAlwHcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:53:43.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookController.cs",
-              "RelativeToolTip": "LibraryManagement.API\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAApwF8AAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:15:56.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBookBorrowingRequestService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T10:44:08.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T03:58:30.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "LibraryManagement.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:22:49.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookBorrowingRequestService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T16:55:35.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\CategoryService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\CategoryService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Services\\CategoryService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAhwC0AAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T02:41:11.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T11:07:23.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "LibraryManagement.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T11:24:26.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UploadPhotoService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Common\\UploadPhotoService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Common\\UploadPhotoService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Common\\UploadPhotoService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Common\\UploadPhotoService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAArwCgAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T11:39:41.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\BookService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Services\\BookService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T05:17:01.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RatingService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\RatingService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\RatingService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\RatingService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Services\\RatingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T02:41:13.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BookBorrowingRequestDto.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T03:49:39.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BorrowingRequestCreateEditDto.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T03:49:41.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T02:40:19.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "Rating.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Rating.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\Rating.cs",
               "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Rating.cs",
               "RelativeToolTip": "LibraryManagement.Core\\Entities\\Rating.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T02:41:16.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BookDto.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\RatingService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\RatingService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\RatingService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\RatingService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T02:40:59.821Z",
+              "WhenOpened": "2024-06-05T02:41:13.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABUAAAA",
+              "DocumentIndex": 0,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\ReviewService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\ReviewService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\ReviewService.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwGEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T16:55:30.88Z",
+              "WhenOpened": "2024-06-07T03:21:08.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwCAAAAAjAAAA",
+              "DocumentIndex": 8,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Interfaces\\IReviewRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IReviewRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Interfaces\\IReviewRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T10:36:55.003Z",
+              "WhenOpened": "2024-06-07T06:15:14.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBookBorrowingRequestRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IBookBorrowingRequestRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Interfaces\\IBookBorrowingRequestRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IBookBorrowingRequestRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Interfaces\\IBookBorrowingRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:27:39.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:34:15.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T23:48:37.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABQAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:31:25.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookBorrowingRequestRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\BookBorrowingRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:01:26.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\BookService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\BookService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:17:01.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookBorrowingRequestService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\BookBorrowingRequestService.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAcwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:55:35.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:58:30.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookBorrowingRequestController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\BookBorrowingRequestController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:58:41.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\Review.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Review.cs",
+              "RelativeToolTip": "LibraryManagement.Core\\Entities\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:56:06.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\AuthService.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:15:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\appsettings.json",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\appsettings.json",
+              "RelativeToolTip": "LibraryManagement.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T04:15:53.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:22:49.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:14:11.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\User.cs",
@@ -483,19 +582,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "UserCreateEditDto.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RoleSeedExtensions.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Extensions\\RoleSeedExtensions.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Extensions\\RoleSeedExtensions.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Extensions\\RoleSeedExtensions.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Extensions\\RoleSeedExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T17:01:14.469Z",
+              "WhenOpened": "2024-06-07T03:21:30.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240603073145_InitDb.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Migrations\\20240603073145_InitDb.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Migrations\\20240603073145_InitDb.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Migrations\\20240603073145_InitDb.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Migrations\\20240603073145_InitDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T03:21:41.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\Category.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Category.cs",
+              "RelativeToolTip": "LibraryManagement.Core\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T03:21:19.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\Book.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Book.cs",
+              "RelativeToolTip": "LibraryManagement.Core\\Entities\\Book.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:20:00.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwDUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T09:35:21.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\EmailService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:33:28.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwBoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:55:30.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "SendMailRequest.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Common\\SendMailRequest.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Common\\SendMailRequest.cs",
@@ -508,20 +685,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
+              "Title": "UploadPhotoService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Common\\UploadPhotoService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Common\\UploadPhotoService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Common\\UploadPhotoService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Common\\UploadPhotoService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAArwCgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:39:41.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "TokenDto.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\TokenDto.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\Auth\\TokenDto.cs",
               "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\TokenDto.cs",
               "RelativeToolTip": "LibraryManagement.Application\\Dtos\\Auth\\TokenDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T17:01:10.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\LoginDto.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\Auth\\LoginDto.cs",
@@ -534,29 +724,247 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\Review.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Core\\Entities\\Review.cs",
-              "RelativeToolTip": "LibraryManagement.Core\\Entities\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 36,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T16:56:06.489Z",
+              "WhenOpened": "2024-06-06T18:22:37.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Services\\UserService.cs",
-              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAewDUAAAA6AAAA",
+              "DocumentIndex": 37,
+              "Title": "IMailService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IMailService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IMailService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IMailService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IMailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T09:35:21.395Z",
+              "WhenOpened": "2024-06-07T03:02:52.569Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:07:23.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IBookBorrowingRequestService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IBookBorrowingRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:44:08.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IBookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IBookService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IBookService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:05:52.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\BookController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:15:56.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:19:34.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:24:26.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.API\\Controllers\\RatingController.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.API\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "LibraryManagement.API\\Controllers\\RatingController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAwEYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T17:05:54.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RatingRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:39:33.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:33:38.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\PaginatedList.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Infrastructure\\Repositories\\PaginatedList.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\PaginatedList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:31:58.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BookBorrowingRequestDto.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BookBorrowingRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:49:39.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:21:20.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BookBorrowingRequestDetailDto.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequestDetail\\BookBorrowingRequestDetailDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\BookBorrowingRequestDetail\\BookBorrowingRequestDetailDto.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequestDetail\\BookBorrowingRequestDetailDto.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\BookBorrowingRequestDetail\\BookBorrowingRequestDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:19:08.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BorrowingRequestCreateEditDto.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\BookBorrowingRequest\\BorrowingRequestCreateEditDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:49:41.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T02:40:19.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\Book\\BookDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T02:40:59.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\Auth\\RegisterDto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwCAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:36:55.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserCreateEditDto.cs",
+              "DocumentMoniker": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
+              "ToolTip": "D:\\Github\\Net\\LibraryManagement\\backend\\LibraryManagement\\LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Dtos\\User\\UserCreateEditDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:01:14.469Z"
             }
           ]
         }

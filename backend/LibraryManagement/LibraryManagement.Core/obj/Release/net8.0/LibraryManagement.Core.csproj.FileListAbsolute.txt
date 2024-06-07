@@ -1,0 +1,15 @@
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\bin\Release\net8.0\LibraryManagement.Core.deps.json
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\bin\Release\net8.0\LibraryManagement.Core.runtimeconfig.json
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\bin\Release\net8.0\LibraryManagement.Core.dll
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\bin\Release\net8.0\LibraryManagement.Core.pdb
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.csproj.AssemblyReference.cache
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.AssemblyInfoInputs.cache
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.AssemblyInfo.cs
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.csproj.CoreCompileInputs.cache
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.sourcelink.json
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.dll
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\refint\LibraryManagement.Core.dll
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.pdb
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\LibraryManagement.Core.genruntimeconfig.cache
+D:\Github\Net\LibraryManagement\backend\LibraryManagement\LibraryManagement.Core\obj\Release\net8.0\ref\LibraryManagement.Core.dll

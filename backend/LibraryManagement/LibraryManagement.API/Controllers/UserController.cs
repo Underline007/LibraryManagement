@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.Application.Dtos.User;
 using LibraryManagement.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace LibraryManagement.API.Controllers
         }
 
         [HttpGet]
+        
         public async Task<IActionResult> GetAllUsers(int pageNumber = 1, int pageSize = 10)
         {
             var users = await _userService.GetAllUserAsync(pageNumber, pageSize);
@@ -26,6 +28,7 @@ namespace LibraryManagement.API.Controllers
         }
 
         [HttpGet("{id}")]
+
         public async Task<IActionResult> GetUserById(Guid id)
         {
             var user = await _userService.GetUserByIdAsync(id);
@@ -37,6 +40,7 @@ namespace LibraryManagement.API.Controllers
         }
 
         [HttpPut("{id}")]
+      
         public async Task<IActionResult> UpdateUser(Guid id, [FromBody] UserCreateEditDto userDto)
         {
             try

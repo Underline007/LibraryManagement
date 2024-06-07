@@ -29,24 +29,44 @@ namespace LibraryManagement.Application.Services
 
         public async Task<BookBorrowingRequestDto> CreateRequestAsync(BorrowingRequestCreateEditDto createEditDto)
         {
+            var currentDate = DateTime.Now;
+            var firstDayOfMonth = new DateTime(currentDate.Year, currentDate.Month, 1);
+            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(-1);
+
+            var userRequests = await _requestRepository.GetRequestsByUserAndDateAsync(createEditDto.RequestorId, firstDayOfMonth, lastDayOfMonth);
+            var userRequestCount = userRequests.Count();
+
+            var bookCount = createEditDto.BookIds?.Count() ?? 0;
+            if (createEditDto.BookBorrowingReturnDate < DateTime.Now)
+            {
+                throw new ApplicationException("Return Date must be greater than current date");
+            }
+            if (userRequestCount >= 3)
+            {
+                throw new ApplicationException("User has exceeded the maximum borrowing requests allowed for this month.");
+            }
+            if (bookCount > 5)
+            {
+                throw new ApplicationException("Maximum 5 books are allowed to borrow at once.");
+            }
+
+
             var newRequest = new BookBorrowingRequest
             {
+                
                 RequestorId = createEditDto.RequestorId,
                 BookBorrowingReturnDate = createEditDto.BookBorrowingReturnDate,
                 Status = BorrowingRequestStatus.Waitting,
                 RequestDate = DateTime.Now,
-                BookBorrowingRequestDetails = createEditDto.BookIds?.Select(id => new BookBorrowingRequestDetail { BookId = id }).ToList()
+                BookBorrowingRequestDetails = createEditDto.BookIds?.Select(id => new BookBorrowingRequestDetails { BookId = id }).ToList()
             };
 
             await _requestRepository.Add(newRequest);
             return _mapper.Map<BookBorrowingRequestDto>(newRequest);
         }
 
-        public async Task<IEnumerable<BookBorrowingRequestDto>> GetAllRequestsAsync(int pageNumber, int pageSize)
-        {
-            var requests = await _requestRepository.GetAll(pageNumber, pageSize);
-            return _mapper.Map<IEnumerable<BookBorrowingRequestDto>>(requests);
-        }
+
+
 
         public async Task<BookBorrowingRequestDto> GetRequestByIdAsync(Guid requestId)
         {
@@ -54,11 +74,15 @@ namespace LibraryManagement.Application.Services
             return _mapper.Map<BookBorrowingRequestDto>(request);
         }
 
-        public async Task UpdateRequestStatusAsync(Guid requestId, BorrowingRequestStatus newStatus)
+       
+
+        public async Task UpdateRequestStatusAsync(Guid requestId, BorrowingRequestStatus newStatus, Guid approverId)
         {
-            await _requestRepository.UpdateStatusAsync(requestId, newStatus);
+            await _requestRepository.UpdateStatusAsync(requestId, newStatus, approverId);
             await NotifyUserAsync(requestId);
         }
+
+
 
         public async Task NotifyUserAsync(Guid requestId)
         {
@@ -85,5 +109,16 @@ namespace LibraryManagement.Application.Services
             await _emailService.SendEmailAsync(sendMailRequest);
         }
 
+        public async Task<IEnumerable<BookBorrowingRequestDto>> GetRequestsByUserIdAsync(Guid userId)
+        {
+            var requests = await _requestRepository.GetRequestsByUserIdAsync(userId);
+            return _mapper.Map<IEnumerable<BookBorrowingRequestDto>>(requests);
+        }
+
+        public async Task<IEnumerable<BookBorrowingRequestDto>> GetAllRequestsAsync()
+        {
+            var requests = await _requestRepository.GetAllRequestsAsync();
+            return _mapper.Map<IEnumerable<BookBorrowingRequestDto>>(requests);
+        }
     }
 }

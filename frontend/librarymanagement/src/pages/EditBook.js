@@ -11,12 +11,12 @@ const EditBookPage = () => {
     const [categories, setCategories] = useState([]);
     const [loading, setLoading] = useState(false);
     const [image, setImage] = useState(null);
-    const { id } = useParams(); // Sử dụng useParams để lấy id từ URL
+    const { id } = useParams();
 
     useEffect(() => {
         const fetchBook = async () => {
             try {
-                const response = await axios.get(`https://localhost:7049/api/books/${id}`);
+                const response = await axios.get(`/books/${id}`);
                 setBook(response.data);
             } catch (error) {
                 console.error('Error fetching book:', error);
@@ -29,7 +29,7 @@ const EditBookPage = () => {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get('https://localhost:7049/api/categories');
+                const response = await axios.get('/categories');
                 setCategories(response.data.items);
             } catch (error) {
                 console.error('Error fetching categories:', error);
@@ -41,7 +41,6 @@ const EditBookPage = () => {
 
     useEffect(() => {
         if (book && !image) {
-            // Nếu có sách và không có hình ảnh mới, cập nhật state image từ book.image
             setImage(book.image);
         }
     }, [book, image]);
@@ -49,7 +48,6 @@ const EditBookPage = () => {
     const handleSubmit = async (values) => {
         setLoading(true);
         try {
-            // Gửi dữ liệu chỉnh sửa sách đến API
             const formData = new FormData();
             formData.append('title', values.title);
             formData.append('author', values.author);
@@ -59,13 +57,12 @@ const EditBookPage = () => {
                 formData.append('image', image);
             }
 
-            await axios.put(`https://localhost:7049/api/books/${book.id}`, formData, {
+            await axios.put(`/books/${book.id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
             });
 
-            // Chuyển hướng về trang danh sách sách sau khi chỉnh sửa thành công
             window.location.href = '/books';
         } catch (error) {
             console.error('Error editing book:', error);
@@ -124,10 +121,45 @@ const EditBookPage = () => {
                         ))}
                     </Select>
                 </Form.Item>
-                <Form.Item label="Upload Image">
-                    <div {...getRootProps()}>
+                <Form.Item
+                    label="Upload Image"
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        padding: '20px',
+                        border: '2px dashed #ccc',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease',
+                        '&:hover': {
+                            backgroundColor: '#f5f5f5',
+                            borderColor: '#1890ff',
+                        },
+                    }}
+                >
+                    <div
+                        {...getRootProps()}
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            width: '100%',
+                            height: '40px',
+                        }}
+                    >
                         <input {...getInputProps()} />
-                        <p>Drag 'n' drop an image here, or click to select an image</p>
+                        <p
+                            style={{
+                                color: '#666',
+                                fontSize: '16px',
+                                fontWeight: 'bold',
+                                marginTop: '10px',
+                            }}
+                        >
+                            Drag 'n' drop an image here, or click to select an image
+                        </p>
                     </div>
                 </Form.Item>
                 <Form.Item>

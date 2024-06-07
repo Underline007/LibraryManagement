@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
-import { jwtDecode } from "jwt-decode";
+import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
 
 export const AuthContext = createContext();
@@ -10,19 +10,17 @@ export const AuthProvider = ({ children }) => {
     const [token, setToken] = useState(null);
     const navigate = useNavigate();
 
+    axios.defaults.baseURL = "https://localhost:7049/api"
+
     const login = async (email, password) => {
         try {
-            const response = await axios.post('https://localhost:7049/api/auth/login', {
+            const response = await axios.post('/auth/login', {
                 email,
                 password,
             });
+
             setUser(response.data);
             setToken(response.data.token);
-            if (response.data.role === 1) {
-                await navigate('/dashboard');
-            } else {
-                await navigate('/book');
-            }
             localStorage.setItem('token', response.data.token);
         } catch (error) {
             console.error('Login error:', error);
@@ -34,23 +32,37 @@ export const AuthProvider = ({ children }) => {
         setUser({});
         setToken(null);
         localStorage.removeItem('token');
+        navigate('/login');
+    };
+
+    const isTokenExpired = (token) => {
+        const decodedToken = jwtDecode(token);
+        const currentTime = Date.now() / 1000;
+        return decodedToken.exp < currentTime;
     };
 
     useEffect(() => {
         const storedToken = localStorage.getItem('token');
         if (storedToken) {
-
-            setToken(storedToken);
-
-            const decodedToken = jwtDecode(storedToken);
-            const userId = decodedToken["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"];
-            fetchUserInfo(userId);
+            if (isTokenExpired(storedToken)) {
+                logout();
+            } else {
+                setToken(storedToken);
+                const decodedToken = jwtDecode(storedToken);
+                const userId = decodedToken["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"];
+                fetchUserInfo(userId);
+            }
         }
     }, []);
 
     const fetchUserInfo = async (userId) => {
         try {
-            const response = await axios.get(`https://localhost:7049/api/users/${userId}`);
+            const response = await axios.get(`/users/${userId}`, {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            });
+
             setUser(response.data);
         } catch (error) {
             console.error('Error fetching user info:', error);

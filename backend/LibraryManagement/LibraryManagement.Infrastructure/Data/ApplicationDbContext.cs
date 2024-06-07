@@ -10,7 +10,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<Review> Reviews { get; set; }
     public DbSet<Rating> Ratings { get; set; }
     public DbSet<BookBorrowingRequest> BookBorrowingRequests { get; set; }
-    public DbSet<BookBorrowingRequestDetail> BookBorrowingRequestDetails { get; set; }
+    public DbSet<BookBorrowingRequestDetails> BookBorrowingRequestDetails { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -19,7 +19,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         modelBuilder.Entity<Category>()
             .HasMany(c => c.Books)
             .WithOne(b => b.Category)
-            .HasForeignKey(b => b.CategoryId);
+            .HasForeignKey(b => b.CategoryId).
+            OnDelete(DeleteBehavior.Restrict); 
 
         modelBuilder.Entity<Book>()
             .HasMany(b => b.Ratings)
@@ -65,7 +66,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             .HasForeignKey(r => r.UserId)
             .OnDelete(DeleteBehavior.Restrict);
 
-        modelBuilder.Entity<BookBorrowingRequestDetail>()
+        modelBuilder.Entity<BookBorrowingRequestDetails>()
             .HasKey(brd => new { brd.BookBorrowingRequestId, brd.BookId });
     }
 }

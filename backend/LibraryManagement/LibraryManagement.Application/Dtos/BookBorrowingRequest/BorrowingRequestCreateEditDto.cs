@@ -14,10 +14,10 @@ namespace LibraryManagement.Application.Dtos.BookBorrowingRequest
         [Required(ErrorMessage = "RequestorId is required")]
         public Guid RequestorId { get; set; }
 
+        [Required(ErrorMessage = "Return Date is required")]
         public DateTime BookBorrowingReturnDate { get; set; } 
 
         [Required(ErrorMessage = "Book list is required")]
-        [MaxLength(5, ErrorMessage = "Maximum 5 books allowed")]
         public List<Guid>? BookIds { get; set; }
     }
 }

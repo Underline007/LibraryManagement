@@ -1,5 +1,7 @@
 ﻿using LibraryManagement.Application.Dtos.Category;
 using LibraryManagement.Application.Interfaces;
+using LibraryManagement.Core.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -54,6 +56,7 @@ namespace LibraryManagement.API.Controllers
                 }
             }
 
+            [Authorize(Roles = nameof(UserRole.SuperUser))]
             [HttpPost]
             public async Task<IActionResult> AddCategory([FromBody] CategoryCreateEditDto createEditCategoryDto)
             {
@@ -74,6 +77,7 @@ namespace LibraryManagement.API.Controllers
                 }
             }
 
+            [Authorize(Roles = nameof(UserRole.SuperUser))]
             [HttpDelete("{id}")]
             public async Task<IActionResult> DeleteCategory(Guid id)
             {
@@ -101,6 +105,7 @@ namespace LibraryManagement.API.Controllers
                 }
             }
 
+            [Authorize(Roles = nameof(UserRole.SuperUser))]
             [HttpPut("{id}")]
             public async Task<IActionResult> UpdateCategory(Guid id, [FromBody] CategoryCreateEditDto createEditCategoryDto)
             {

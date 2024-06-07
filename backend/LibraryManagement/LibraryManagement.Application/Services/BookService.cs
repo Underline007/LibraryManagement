@@ -6,17 +6,19 @@ using LibraryManagement.Infrastructure.Interfaces;
 using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace LibraryManagement.Application.Services
 {
     public class BookService : IBookService
     {
-        private readonly IGenericRepository<Book> _bookRepository;
+        private readonly IBookRepository _bookRepository;
         private readonly IPhotoService _photoService;
         private readonly IMapper _mapper;
 
-        public BookService(IGenericRepository<Book> bookRepository, IPhotoService photoService, IMapper mapper)
+        public BookService(IBookRepository bookRepository, IPhotoService photoService, IMapper mapper)
         {
             _bookRepository = bookRepository;
             _photoService = photoService;
@@ -32,8 +34,8 @@ namespace LibraryManagement.Application.Services
             {
                 Items = (List<BookDto>)bookDtos,
                 TotalPages = paginatedBooks.TotalPages,
-    
-            };
+
+            }; 
         }
 
         public async Task<BookDto> GetBookByIdAsync(Guid id)
@@ -95,5 +97,28 @@ namespace LibraryManagement.Application.Services
 
             await _bookRepository.Update(book);
         }
+        public async Task<IEnumerable<Book>> SearchAndSortAsync(string? searchTerm, string? sortBy)
+        {
+            return await _bookRepository.SearchAndSortAsync(searchTerm, sortBy);
+        }
+
+        //public async Task<IEnumerable<Book>> GetBooksByTitleAndAuthor(string title, string author, int pageNumber = 1, int pageSize = 10)
+        //{
+        //    return await _bookRepository.Search(
+        //    b => b.Title.Contains(title) && b.Author.Contains(author),
+        //    q => q.OrderBy(b => b.Title),
+        //    pageNumber,
+        //    pageSize
+        //    );
+        //}
+
+        //public async Task<PaginatedList<BookDto>> GetAll(Expression<Func<Book, bool>> filter,
+        //                                                Func<IQueryable<Book>, IOrderedQueryable<Book>> orderBy,
+        //                                                int pageNumber,
+        //                                                int pageSize)
+        //{
+        //    var books = await _bookRepository.GetAll(filter, orderBy, pageNumber, pageSize);
+        //    return _mapper.Map<PaginatedList<BookDto>>(books);
+        //}
     }
 }

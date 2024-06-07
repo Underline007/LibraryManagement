@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LibraryManagement.Core.Entities
 {
-    public class BookBorrowingRequestDetail
+    public class BookBorrowingRequestDetails
     {
         public Guid BookBorrowingRequestId { get; set; }
         public virtual BookBorrowingRequest? BookBorrowingRequest { get; set; }

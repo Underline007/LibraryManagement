@@ -88,11 +88,11 @@ const CategoryList = () => {
     }
 
     return (
-        <div>
+        <div style={{ padding: 20 }}>
             <Button type="primary" onClick={showModal} style={{ marginBottom: 8 }}>
                 Add Category
             </Button>
-            <Table dataSource={categories} columns={columns} rowKey="id" pagination={false} />
+            <Table dataSource={categories} columns={columns} rowKey="id" pagination={false} style={{ backgroundColor: '#f0f2f5', borderRadius: 4 }} /> {/* Basic table styling */}
             <Pagination
                 current={currentPage}
                 total={totalPages * 10}

@@ -20,6 +20,6 @@ namespace LibraryManagement.Core.Entities
         public Guid? ApproverId { get; set; }
         public virtual User? Approver { get; set; }
 
-        public virtual ICollection<BookBorrowingRequestDetail>? BookBorrowingRequestDetails { get; set; }
+        public virtual ICollection<BookBorrowingRequestDetails>? BookBorrowingRequestDetails { get; set; }
     }
 }

@@ -15,7 +15,7 @@ const BookTable = () => {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get('https://localhost:7049/api/categories');
+                const response = await axios.get('/categories');
                 const categoryMap = {};
                 response.data.items.forEach(category => {
                     categoryMap[category.id] = category.name;
@@ -29,24 +29,17 @@ const BookTable = () => {
         fetchCategories();
     }, []);
 
-    const handleBookClick = (book) => {
-        navigate(`/books/${book.id}`);
-    };
-
     const handleCreateBook = () => {
         navigate('/create-book');
     };
-
-
 
     const handleEditBook = (book) => {
         navigate(`/edit-book/${book.id}`, { state: { image: book.image } });
     };
 
-
     const handleDeleteBook = (bookId) => {
         Modal.confirm({
-            title: 'Remove this book ?',
+            title: 'Remove this book?',
             content: 'Do you want to remove this book?',
             onOk: () => {
                 deleteBook(bookId);
@@ -59,6 +52,7 @@ const BookTable = () => {
             title: 'Title',
             dataIndex: 'title',
             key: 'title',
+            render: (text) => <span style={{ color: 'red', fontWeight: 'bold' }}>{text}</span>,
         },
         {
             title: 'Author',
@@ -69,6 +63,7 @@ const BookTable = () => {
             title: 'Description',
             dataIndex: 'description',
             key: 'description',
+            width: '30%',
         },
         {
             title: 'Category',
@@ -87,13 +82,11 @@ const BookTable = () => {
             key: 'actions',
             render: (text, record) => (
                 <>
-                    <Button type="primary" onClick={() => handleBookClick(record)}>
-                        View Details
-                    </Button>
-                    <Button type="primary" onClick={() => handleEditBook(record)}>
+
+                    <Button type="primary" onClick={() => handleEditBook(record)} style={{ marginRight: 8 }}>
                         Edit
                     </Button>
-                    <Button type="danger" onClick={() => handleDeleteBook(record.id)}>
+                    <Button style={{ color: 'red' }} onClick={() => handleDeleteBook(record.id)}>
                         Delete
                     </Button>
                 </>
@@ -107,10 +100,15 @@ const BookTable = () => {
 
     return (
         <>
-            <Button type="primary" onClick={handleCreateBook}>
+            <Button type="primary" onClick={handleCreateBook} style={{ marginBottom: 16 }}>
                 Create Book
             </Button>
-            <Table dataSource={books} columns={columns} rowKey="id" />
+            <Table
+                dataSource={books}
+                columns={columns}
+                rowKey="id"
+                pagination={false}
+            />
             <Pagination />
         </>
     );

@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Core.Enums;
+﻿using LibraryManagement.Application.Dtos.BookBorrowingRequestDetail;
+using LibraryManagement.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -16,6 +17,6 @@ namespace LibraryManagement.Application.Dtos.BookBorrowingRequest
         public BorrowingRequestStatus Status { get; set; } = BorrowingRequestStatus.Waitting;
         public Guid RequestorId { get; set; }
         public Guid? ApproverId { get; set; }
-        public List<Guid>? BookIds { get; set; }
+        public List<BookBorrowingRequestDetailDto>? BookBorrowingRequestDetails { get; set; }
     }
 }

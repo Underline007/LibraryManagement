@@ -11,11 +11,6 @@ namespace LibraryManagement.Infrastructure.Interfaces
     public interface IGenericRepository<T> where T : class
     {
         Task<PaginatedList<T>> GetAll(int pageNumber, int pageSize);
-        Task<IEnumerable<T>> GetAll(
-            Expression<Func<T, bool>> filter,
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy,
-            int pageNumber,
-            int pageSize);
         Task<T> GetById(Guid id);
         Task Add(T entity);
         Task Delete(Guid id);

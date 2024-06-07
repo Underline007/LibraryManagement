@@ -26,6 +26,6 @@ namespace LibraryManagement.Core.Entities
         public virtual Category? Category { get; set; }
         public virtual ICollection<Rating>? Ratings { get; set; }
         public virtual ICollection<Review>? Reviews { get; set; }
-        public virtual ICollection<BookBorrowingRequestDetail>? BookBorrowingRequestDetails { get; set; }
+        public virtual ICollection<BookBorrowingRequestDetails>? BookBorrowingRequestDetails { get; set; }
     }
 }

@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Form, Input, Button, Select } from 'antd';
+import { Form, Input, Button, Select, message } from 'antd';
 import { useDropzone } from 'react-dropzone';
+
 
 const { Option } = Select;
 
-const CreateBookPage = ({ history }) => {
+const CreateBookPage = ({ }) => {
+    const [token, setToken] = useState(localStorage.getItem('token'));
     const [categories, setCategories] = useState([]);
     const [loading, setLoading] = useState(false);
     const [image, setImage] = useState(null);
@@ -13,7 +15,7 @@ const CreateBookPage = ({ history }) => {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get('https://localhost:7049/api/categories');
+                const response = await axios.get('/categories');
                 setCategories(response.data.items);
             } catch (error) {
                 console.error('Error fetching categories:', error);
@@ -26,7 +28,6 @@ const CreateBookPage = ({ history }) => {
     const handleSubmit = async (values) => {
         setLoading(true);
         try {
-            // Gửi dữ liệu tạo sách mới đến API
             const formData = new FormData();
             formData.append('title', values.title);
             formData.append('author', values.author);
@@ -34,13 +35,14 @@ const CreateBookPage = ({ history }) => {
             formData.append('categoryId', values.categoryId);
             formData.append('image', image);
 
-            await axios.post('https://localhost:7049/api/books', formData, {
+            await axios.post('/books', formData, {
                 headers: {
-                    'Content-Type': 'multipart/form-data'
+                    'Content-Type': 'multipart/form-data',
+                    "Authorization": `Bearer ${token}`
                 }
             });
+            await message.success('Book created successfully');
 
-            // Chuyển hướng về trang danh sách sách sau khi tạo thành công
             window.location.href = '/';
         } catch (error) {
             console.error('Error creating book:', error);

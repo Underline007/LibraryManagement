@@ -2,6 +2,7 @@
 using LibraryManagement.Application.Dtos.Auth;
 using LibraryManagement.Application.Dtos.Book;
 using LibraryManagement.Application.Dtos.BookBorrowingRequest;
+using LibraryManagement.Application.Dtos.BookBorrowingRequestDetail;
 using LibraryManagement.Application.Dtos.Category;
 using LibraryManagement.Application.Dtos.Rating;
 using LibraryManagement.Application.Dtos.Review;
@@ -30,9 +31,13 @@ namespace LibraryManagement.Application.Mappings
             CreateMap<Rating, RatingDto>();
             CreateMap<RatingCreateEditDto, Rating>();
 
+            CreateMap<BookBorrowingRequest, BookBorrowingRequestDto>()
+                .ForMember(dest => dest.BookBorrowingRequestDetails, opt => opt.MapFrom(src => src.BookBorrowingRequestDetails));
 
-            CreateMap<BookBorrowingRequest, BookBorrowingRequestDto>();
             CreateMap<BorrowingRequestCreateEditDto, BookBorrowingRequest>();
+
+            CreateMap<BookBorrowingRequestDetails, BookBorrowingRequestDetailDto>()
+                .ForMember(dest => dest.BookTitle, opt => opt.MapFrom(src => src.Book.Title));
         }
     }
 }

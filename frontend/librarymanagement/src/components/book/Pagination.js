@@ -11,10 +11,10 @@ const Pagination = () => {
         if (customPage >= 1 && customPage <= totalPages) {
             setTimeout(() => {
                 changePage(customPage);
-                updatePageSize(customPageSize); // Cập nhật kích thước trang sau khi thay đổi trang
-            }); // Delay 1 giây trước khi thực hiện
+                updatePageSize(customPageSize);
+            });
         } else {
-            // Xử lý khi trang nhập không hợp lệ, ví dụ: hiển thị thông báo lỗi
+
         }
     };
 
@@ -30,7 +30,7 @@ const Pagination = () => {
             >
                 Previous
             </Button>
-            <span style={{ margin: '0 10px' }}>
+            <span style={{ margin: '0 10px', marginTop: '5px' }}>
                 Page {pageNumber} of {totalPages}
             </span>
             <Button

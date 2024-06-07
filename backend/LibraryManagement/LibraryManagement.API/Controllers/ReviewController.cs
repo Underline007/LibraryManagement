@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.Application.Dtos.Review;
 using LibraryManagement.Application.Interfaces;
+using LibraryManagement.Core.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -20,6 +21,7 @@ namespace LibraryManagement.API.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
         public async Task<IActionResult> GetAllReviews([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
             var reviews = await _reviewService.GetAllReviewAsync(pageNumber, pageSize);
@@ -48,7 +50,7 @@ namespace LibraryManagement.API.Controllers
         [Authorize]
         public async Task<IActionResult> AddReview([FromBody] ReviewCreateEditDto reviewCreateEditDto)
         {
-            var userId = Guid.Parse(User.Identity.Name); // Assuming the user's ID is stored in the identity name
+            var userId = Guid.Parse(User.Identity.Name); 
             var review = await _reviewService.AddReviewAsync(userId, reviewCreateEditDto);
             return CreatedAtAction(nameof(GetReviewById), new { id = review.Id }, review);
         }

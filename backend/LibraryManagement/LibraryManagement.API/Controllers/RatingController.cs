@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.Application.Dtos.Rating;
 using LibraryManagement.Application.Interfaces;
+using LibraryManagement.Core.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -19,6 +20,7 @@ namespace LibraryManagement.API.Controllers
             _ratingService = ratingService;
         }
 
+        [Authorize(Roles = nameof(UserRole.SuperUser))]
         [HttpGet]
         public async Task<IActionResult> GetAllRatings([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
@@ -26,6 +28,8 @@ namespace LibraryManagement.API.Controllers
             return Ok(ratings);
         }
 
+
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetRatingById(Guid id)
         {
@@ -37,6 +41,7 @@ namespace LibraryManagement.API.Controllers
             return Ok(rating);
         }
 
+        [Authorize]
         [HttpGet("book/{bookId}")]
         public async Task<IActionResult> GetRatingsByBookId(Guid bookId)
         {
@@ -44,11 +49,12 @@ namespace LibraryManagement.API.Controllers
             return Ok(ratings);
         }
 
+
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> AddRating([FromBody] RatingCreateEditDto ratingCreateEditDto)
         {
-            var userId = Guid.Parse(User.Identity.Name); // Assuming the user's ID is stored in the identity name
+            var userId = Guid.Parse(User.Identity.Name);
             var rating = await _ratingService.AddRatingAsync(userId, ratingCreateEditDto);
             return CreatedAtAction(nameof(GetRatingById), new { id = rating.Id }, rating);
         }
